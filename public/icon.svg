@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <linearGradient id="ff-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+    <linearGradient id="ff-accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#2563eb" />
+    </linearGradient>
+    <linearGradient id="ff-spark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#ef4444" />
+    </linearGradient>
+  </defs>
+  <!-- Background Rounded Rect -->
+  <rect width="512" height="512" rx="112" fill="url(#ff-bg)" />
+  
+  <!-- Flow Ring -->
+  <circle cx="256" cy="256" r="160" stroke="#334155" stroke-width="12" stroke-dasharray="24 16" />
+  
+  <!-- Wrench / Tool Symbol -->
+  <path d="M340 172a56 56 0 0 0-77 7l-26 26 50 50 26-26a56 56 0 0 0-7-77l-20 20-30-30 20-20a56 56 0 0 0-26 10z" fill="url(#ff-accent)" opacity="0.9" />
+  <path d="M228 264l-96 96a24 24 0 0 0 34 34l96-96-34-34z" fill="url(#ff-accent)" />
+
+  <!-- AI Spark / Flash Flow -->
+  <path d="M310 200l20-45 45-20-45-20-20-45-20 45-45 20 45 20 20 45z" fill="url(#ff-spark)" />
+  <circle cx="370" cy="290" r="12" fill="#38bdf8" />
+  <circle cx="150" cy="200" r="8" fill="#38bdf8" opacity="0.6" />
+  <circle cx="340" cy="380" r="14" fill="#60a5fa" opacity="0.8" />
+</svg>

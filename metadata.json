@@ -1,0 +1,11 @@
+{
+  "name": "FixFlow AI",
+  "description": "AI-powered field service management & diagnostics PWA for technicians and repair services with instant quotes and digital service reports.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
